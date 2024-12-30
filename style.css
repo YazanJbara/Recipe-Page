@@ -83,6 +83,11 @@ h6 {
   font-size: 1.875rem;
 }
 
+.prepare-time {
+  background-color: var(--rose-50);
+  padding: 1rem;
+}
+
 .prepare-time-head{
   color: var(--rose-800);
   font-size: 1.2rem;
@@ -120,7 +125,7 @@ tr:not(:last-child) {
   border-bottom: 1px solid #ddd;
 }
 
-section:not(:last-child)::after {
+main section:not(:last-child)::after {
   content: '';
   display: block;
   height: 1px;
