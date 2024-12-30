@@ -1,0 +1,140 @@
+:root {
+  --ff-headings: 'Young Serif', serif;
+  --fw-headings: 400;
+  --ff-body: 'Outfit', serif;
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+/* Josh Css reset */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* 3. Add accessible line-height */
+  line-height: 1.5;
+  /* 4. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--stone-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  color: var(--stone-600);
+  font-family: var(--ff-body);
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+p {
+  text-wrap: pretty;
+  margin: 0 0.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5rem 0 0.7rem 0.4rem;
+  color: var(--brown-800);
+  font-size: 1.6rem;
+  font-family: var(--ff-headings);
+  letter-spacing: 1px;
+}
+
+.container {
+  background-color: var(--white);
+  max-width: 50rem;
+}
+
+.content-wrapper {
+  padding: 20px;
+}
+
+.header-title {
+  color: var(--stone-900);
+  font-size: 1.875rem;
+}
+
+.prepare-time-head{
+  color: var(--rose-800);
+  font-size: 1.2rem;
+}
+
+.list{
+  margin: 0 1.5rem;
+}
+
+li {
+  margin: 0.7rem;
+}
+
+li::marker {
+  color: var(--brown-800);
+  font-weight: 900;
+}
+
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin: 1rem 1.5rem;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}
+td:last-child {
+  font-weight: bold;
+  color: var(--brown-800);
+}
+tr:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
+
+section:not(:last-child)::after {
+  content: '';
+  display: block;
+  height: 1px;
+  width: 90%;
+  margin: 0.5rem auto;
+  background-color: #ddd;
+}
+
+@media (min-width:750px) {
+  img {
+    padding: 20px;
+    border-radius: 1.5rem;
+  }
+  .container {
+    border-radius: 1.2rem;
+  }
+}
