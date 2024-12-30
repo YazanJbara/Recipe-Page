@@ -1,10 +1,10 @@
 ## Frontend Mentor Challenges
 
-#### Product Preview Challenge
+#### Recipe Page Challenge
 
-#### Challenge Link :https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa
+#### Challenge Link :https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm
 
-#### Live : https://yazanjbara.github.io/Product-Preview-Card-Component/
+#### Live : https://yazanjbara.github.io/Recipe-Page/
 
 #### The Result :
 
